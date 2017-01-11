@@ -10,10 +10,12 @@
 
 @interface AppDelegate ()
 
-@property (weak) IBOutlet NSWindow *window;
+//@property (weak) IBOutlet NSWindow *window;
 @end
 
 @implementation AppDelegate
+
+@synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application

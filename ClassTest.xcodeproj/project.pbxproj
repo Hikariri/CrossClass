@@ -11,6 +11,8 @@
 		212BAE611E24D3F600546424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212BAE601E24D3F600546424 /* main.m */; };
 		212BAE631E24D3F600546424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212BAE621E24D3F600546424 /* Assets.xcassets */; };
 		212BAE661E24D3F600546424 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212BAE641E24D3F600546424 /* MainMenu.xib */; };
+		212BAE6F1E24D40E00546424 /* AClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 212BAE6E1E24D40E00546424 /* AClass.m */; };
+		212BAE721E24D41A00546424 /* BClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 212BAE711E24D41A00546424 /* BClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,10 @@
 		212BAE621E24D3F600546424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212BAE651E24D3F600546424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		212BAE671E24D3F600546424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212BAE6D1E24D40E00546424 /* AClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AClass.h; sourceTree = "<group>"; };
+		212BAE6E1E24D40E00546424 /* AClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AClass.m; sourceTree = "<group>"; };
+		212BAE701E24D41A00546424 /* BClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BClass.h; sourceTree = "<group>"; };
+		212BAE711E24D41A00546424 /* BClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,10 @@
 			children = (
 				212BAE5C1E24D3F600546424 /* AppDelegate.h */,
 				212BAE5D1E24D3F600546424 /* AppDelegate.m */,
+				212BAE6D1E24D40E00546424 /* AClass.h */,
+				212BAE6E1E24D40E00546424 /* AClass.m */,
+				212BAE701E24D41A00546424 /* BClass.h */,
+				212BAE711E24D41A00546424 /* BClass.m */,
 				212BAE621E24D3F600546424 /* Assets.xcassets */,
 				212BAE641E24D3F600546424 /* MainMenu.xib */,
 				212BAE671E24D3F600546424 /* Info.plist */,
@@ -142,6 +152,8 @@
 			files = (
 				212BAE611E24D3F600546424 /* main.m in Sources */,
 				212BAE5E1E24D3F600546424 /* AppDelegate.m in Sources */,
+				212BAE6F1E24D40E00546424 /* AClass.m in Sources */,
+				212BAE721E24D41A00546424 /* BClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
